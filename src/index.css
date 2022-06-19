@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "ir_sans";
+  src: url("Fonts/ir_sans.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  src: url("Fonts/955dcd73d2387ec6557aed00fc91061c3e2512291901931.ttf");
+  font-family: "inter";
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  src: url("Fonts/Mj_Casablanca\ Heavy.ttf");
+  font-family: "casablanca";
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  src: url("Fonts/fontawesome-webfont.woff") format("woff");
+  font-family: "font-awesome";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 20px;
+  direction: rtl;
+}

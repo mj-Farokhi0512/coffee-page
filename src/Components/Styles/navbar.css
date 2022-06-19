@@ -1,0 +1,39 @@
+.navbar {
+  position: fixed !important;
+  top: 0;
+  right: 0;
+  left: 0;
+  font-size: 20px;
+  font-family: "ir_sans";
+  font-weight: 900;
+  background-color: rgba(255, 255, 255, 0.5);
+  z-index: 99;
+}
+
+.navbar .nav-list {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  margin: 0;
+}
+
+.navbar .nav-list li {
+  padding: 10px 20px;
+}
+
+.navbar .nav-list li a {
+  text-decoration: none;
+  color: #2d1e06;
+}
+
+.navbar .nav-list li:last-of-type {
+  margin-right: auto;
+}
+/*# sourceMappingURL=navbar.css.map */

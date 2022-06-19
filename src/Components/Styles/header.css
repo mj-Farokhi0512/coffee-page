@@ -1,0 +1,88 @@
+.header .banner {
+  background-image: url("../../Images/image 1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 690px;
+  position: relative;
+}
+
+.header .banner h1 {
+  color: white;
+  position: absolute;
+  bottom: 50px;
+  font-size: 100px;
+  font-family: "casablanca";
+  right: 0;
+  left: 0;
+  text-align: center;
+}
+
+.header .search {
+  background-color: #e0a450;
+  text-align: center;
+  font-size: 24px;
+  font-family: "inter";
+}
+
+.header .search h4 {
+  padding: 15px 0;
+}
+
+.header .search .search-input {
+  width: 40%;
+  margin-bottom: 30px;
+  background-color: rgba(255, 255, 255, 0.4);
+  border: none;
+  padding: 5px;
+  border-radius: 10px;
+  -webkit-box-shadow: 1px 10px 10px rgba(0, 0, 0, 0.3);
+          box-shadow: 1px 10px 10px rgba(0, 0, 0, 0.3);
+  position: relative;
+  padding-right: 80px;
+  padding-left: 15px;
+}
+
+.header .search form::after {
+  content: "\f002";
+  font-family: font-awesome;
+  margin-top: 4px;
+  margin-right: 16px;
+  position: absolute;
+  right: 30%;
+  text-shadow: 1px 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+.header .search form::before {
+  content: "";
+  height: 30px;
+  border-left: 3px solid black;
+  position: absolute;
+  z-index: 2;
+  right: 30%;
+  margin-top: 7px;
+  margin-right: 55px;
+  -webkit-box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.3);
+          box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+.header .search ::-webkit-input-placeholder {
+  color: black;
+  text-shadow: 1px 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+.header .search :-ms-input-placeholder {
+  color: black;
+  text-shadow: 1px 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+.header .search ::-ms-input-placeholder {
+  color: black;
+  text-shadow: 1px 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+.header .search ::placeholder {
+  color: black;
+  text-shadow: 1px 3px 3px rgba(0, 0, 0, 0.3);
+}
+/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,107 @@
+@import "./modules/variable";
+
+.main{
+
+    position: relative;
+    // height: 600px;
+    .group{
+        max-width: 450px;
+        text-align: center;
+        margin: 100px  auto;
+
+        img{
+            width: 130px;
+            height: 100px;
+        }
+
+        h4{
+            font-family: $font-nav-family;
+            font-size: 24px;
+            color: $font-color;
+            text-shadow: 3px 3px 5px rgba(0,0,0,0.5);
+        }
+
+        p{
+            color: $font-color;
+            font-family: $font-main-family;
+            font-size: 20px;
+        }
+
+        .box-title{
+            width: 320px;
+        }
+    }
+
+    .title1{
+        float: right;
+        img,.box-title{
+            float: left;
+        }
+    }
+    .title2{
+        float: left;
+        img,.box-title{
+            float: right;
+        }
+    }
+    .title3{
+        float: right;
+        img,.box-title{
+           float: left;
+        }
+    }
+    .title4{
+        float: left;
+        img,.box-title{
+           float: right;
+        }
+    }
+
+
+    .main-icon{
+        width: 300px;
+        height: 300px;
+        position: absolute;
+        background-image: url("../../Images/image\ 2.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        border-radius: 50%;
+        right: calc((100% - 300px)/2);
+        top: calc(50% - 150px);
+
+        div{
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            background-color: white;
+            border-radius: 50%;
+            top: calc(50% - 100px);
+            right: calc(50% - 100px);
+    
+            div{
+                position: absolute;
+                width: 140px;
+                height: 140px;
+                top: calc(50% - 70px);
+                right: calc(50% - 70px);
+                border: 4px solid #f1dab2;
+                box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+
+                img{
+                    position: inherit;
+                    width: 100px;
+                    height: 100px;
+                    top: calc(50% - 50px);
+                    right: calc(50% - 50px);
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 1200px){
+        .main-icon {
+            position: relative;
+        }       
+    }
+}
